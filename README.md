@@ -1,6 +1,23 @@
 # CNN classifer
+# Created a environment
 
-Run 
+python3 -m venv .venv   
+.\.venv\Scripts\activate
+
+# to remove:
+Remove-Item -Recurse -Force .venv
+
+```
+conda create -p env python==3.11
+
+conda activate env/
+```
+# Install all necessary libraries
+```
+pip install -r requirements.txt
+```
+
+# Run 
 ```
 python template.py
 ```
